@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+@import url('https://fonts.googleapis.com/css?family=Honk');
+@import url('https://fonts.googleapis.com/css?family=Anta');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 body,html{
     height: 100%;
     margin: 0;
-    font-family: Orbitron;
+    
 }
 .img{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0,0,0,0.35)),url("dc.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0,0,0,0.25)),url("dc.gif");
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -19,6 +23,8 @@ body,html{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: Orbitron;
+
 }
 .word ul li{
 list-style: none;
@@ -66,11 +72,128 @@ position: relative;
     text-align: center;
     letter-spacing: 0.1px;
     border-radius: 20px;
+    font-family: Bebas Neue;
+    transition: 5s;
+    backdrop-filter: blur(3px);
 }
+
+
 .box h1 {
     font-size: 48px;
-    color: rgb(255, 255, 5);
+    color: rgb(4, 15, 99);
 }
 .box p {
-    color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    transition: 3s;
+}
+.container{
+    display: flex;
+}
+.test{
+   
+    position: relative;
+    left: -40%;
+    top: 150px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Honk;
+    font-size: 38px;
+    
+}
+.test h1{
+    transition: transform 1s;
+}
+.test h1:hover{
+    transform: scale(1.3);
+}
+
+
+
+.box1{
+    position: relative;
+    margin-top: 110px;
+    width: 350px;
+    height: 200px;
+    background: rgba(255,255,255,0.4);
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border-top: 3px solid rgba(255,255,255,0.4);
+    border-left: 3px solid rgba(255,255,255,0.4);
+    font-family: Audiowide;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    backdrop-filter: blur(5px);
+}
+.con2{
+    background:linear-gradient(rgb(89, 142, 142),rgb(19, 2, 19));
+    width: 1oo%;
+    height : 55%;
+    backdrop-filter:blur(5px)
+    border-radius : 50px;
+    display: flex;
+    padding: 0;
+
+}
+.box2 :hover {
+    transform: translate(0px);
+    opacity: 1;
+}
+.box2{
+    background: rgba(255,255,255,0.4);
+    width: 350px;
+    height:200px ;
+    margin-top:110px ;
+    margin-right: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border-top: 3px solid rgba(255,255,255,0.4);
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-family: Audiowide;
+    backdrop-filter: blur(5px);
+}
+.box3{
+    background: rgba(255,255,255,0.4);
+    width: 350px;
+    height:200px ;
+    margin-top:110px ;
+    margin-right: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border-top: 3px solid rgba(255,255,255,0.4);
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-family: Audiowide;
+}
+.box4{
+    background: rgba(255,255,255,0.4);
+    width: 350px;
+    height:200px ;
+    margin-top:110px ;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border-top: 3px solid rgba(255,255,255,0.4);
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-family: Audiowide;
+}
+.cp{
+    text-align: center;
+    background-color: black;
+    height: 170px;
+    margin: 0px;
+    padding: 0%;
+}
+.cp p{
+    color: white;
+    font-family: Anta;
+    text-transform: uppercase;
+    font-size:10px;
 }
