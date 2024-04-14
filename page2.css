@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pixelify Sans');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Coda');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Jersey 10 Charted');
+
+html,body{
+     margin: 0%;
+     height: 100%;
+}
+.img {
+    position: relative;
+    background-image: url("12.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topic{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    font-size: 100px;
+    color:white;
+    font-family: Pixelify Sans;
+}
+.mainb{
+    position : absolute;
+    margin-left: 82%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: VT323;
+    color: white;
+}
+.topic1{
+    margin: 0;
+    background: black;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    color:aliceblue;
+}
+
+.containor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+   
+}
+
+.box{
+    width: 700px;
+    height: 300px;
+    margin: 10px;
+    line-height: 200px ;
+    border-radius: 20px;
+    text-align: center;
+   cursor: pointer;
+    height: 50vh;
+    background: rgba(0,0,0,0.9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.i1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(8.jpg);
+}
+.i2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(9.jpg); 
+}
+.i3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(10.webp);
+}
+.i4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(13.jpg);  
+}
+.i5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(11.jpg);
+}
+.i6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(7.jpg);
+}
+.i7{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(14.jpg);
+}
+.i8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(15.jpg);
+}
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    margin: 20px;
+    background: linear-gradient(rgb(20, 72, 63),rgb(38, 38, 22));
+    border-radius: 20px;
+}
+a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Coda;
+   
+    
+    
+}
+
+a:hover {
+    color: hsl(56, 100%, 50%); /* Text color on hover */ 
+}
+.anm{
+    width: 700px;
+    height: 300px;
+    margin: 10px;
+    padding-left: 10px; 
+    border-radius: 20px;
+    cursor: pointer;
+    height: 50vh;
+    background: rgba(0,0,0,0.9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+.cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.b{
+    
+}
+.fg{
+    margin: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    color:aliceblue;
+}
+.cc{
+    padding: 10px;
+    font-size: 30px;
+    font-family:Anton;
+    color: rgb(216, 217, 224);
+}
+.l1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(27.jpg);
+}
+.l2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(28.png); 
+}
+.l3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(scale.webp);
+}
+.l4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(21.jpg);  
+}
+.l5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(23.webp);
+}
+.l6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(24.jpg);
+}
+.q1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(31.jpg);
+}
+.q2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(32.webp); 
+}
+.q3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(33.webp);
+}
+.q4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(34.jpg);  
+}
+.q5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(35.webp);
+}
+.q6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(36.jpg);
+}
+
+.w1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(41.webp);
+}
+.w2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(42.jpg); 
+}
+.w3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(43.jpg);
+}
+.w4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(44.jpg);  
+}
+.w5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(45.jpe);
+}
+.w6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(46.jpg);
+}
+
+.e1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(51.webp);
+}
+.e2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(52.jpg); 
+}
+.e3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(53.jpg);
+}
+.e4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(54.jpg);  
+}
+.e5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(55.jpg);
+}
+.e6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(56.webp);
+}
+
+.r1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(61.jpg);
+}
+.r2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(62.jpg); 
+}
+.r3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(63.jpg);
+}
+.r4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(64.jpg);  
+}
+.r5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(65.jpg);
+}
+.r6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(66.png);
+}
+
+.t1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(91.jpg);
+}
+.t2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(92.jpg); 
+}
+.t3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(93.jpeg);
+}
+.t4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(94.webp);  
+}
+.t5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(95.jpg);
+}
+.t6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(96.jpg);
+}
+.y1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(71.png);
+}
+.y2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(72.avif); 
+}
+.y3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(73.jpg);
+}
+.y4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(74.webp);  
+}
+.y5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(75.jpe);
+}
+.y6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(76.jpg);
+}
+.u1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(81.jpe);
+}
+.u2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(82.jpe); 
+}
+.u3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(83.jpg);
+}
+.u4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url(84.jpg);  
+}
+.u5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(85.jpe);
+}
+.u6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)), url(86.jpg);
+}
